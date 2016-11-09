@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my personal css */
+
+body {
+	font-family: "Arial";
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #D3D3D3;
+	display: block;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* beginning of the nav bar */
+nav{
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	text-decoration: none;
+	display: block;
+}
+
+/* Name portion */
+.logo {
+	float: left;
+	height: 40px;
+	margin-left: 115px;
+	padding: 10px;
+	padding-bottom: 5px;
+	background-color: teal;
+	font-size: 25px;
+	font-family: Georgia,Times;
+	padding-top: 25px;
+	font-weight: bold;
+	
+}
+
+a {
+	color: #bbc;
+	text-decoration: none;
+}
+
+.main-page {
+	color: white;
+}
+
+.navbar-right {
+	padding: 15px 30px;
+	float: right;
+	list-style: none;
+	vertical-align: baseline;
+}
+
+li {
+	
+	float: right;
+	padding-left: 15px;
+	padding-top: 8px;
+	color: #bbc;
+	
+
+}
+.nav-links{
+	color: grey;
+}
+
+
+.main-content {
+	margin-top: 32px;
+	margin-left: 118px;
+	background-color: white;
+	float: left;
+	margin-bottom: 50px;
+	display: block;
+}
+
+.about-me-content {
+	width: 600px;
+	padding: 45px 10px 25px 31px;
+	display: block;
+}
+
+h3 {
+	font-size: 28px;
+	font-family: "Georgia", "Times";
+	color: teal;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#picture {
+	float: left;
+	padding-right: 15px;
+
+}
+
+.connect-with-me {
+	background-color: white;
+	float: right;
+	width: 270px;
+	margin-top: 32px;
+	margin-left: 10px;
+	padding: 30px 30px 43px 30px;
+	display: block;
+
+}
+
+.connecting-links {
+	display: block;
+}
+
+#smaller-heading{
+	font-size: 25px;
+	font-family: "Georgia", "Times";
+	color: teal;
+	font-weight: bold;
+	margin bottom: 30px;
+	margin-left: 20px;
+}
+
+#images {
+	padding-top: 15px;
+	text-align: center;
+}
+ 
+footer {
+	border-top: 10px solid teal;
+	background-color: #696969;
+	padding: 15px;
+	clear: both;
+	color: white;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	text-align: center;
+	font-size:18px;
+}
+/* Portfolio page styling*/
+.portfolio-images {
+	display: inline;
+
+}
+
+.main-portfolio-content {
+	margin-top: 32px;
+	margin-left: 118px;
+	background-color: white;
+	float: left;
+	margin-bottom: 50px;
+	display: block;
+	width: 45%;
+	padding: 8px 20px 20px 50px;
+}
+.portfolio-content {
+	width: 600px;
+	padding: 45px 10px 25px 31px;
+	display: inline;
+
+}
+
+.first-caption, .second-caption, .third-caption, .fourth-caption, .fifth-caption, .sixth-caption {
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	background-color: teal;
+	color: white;
+	position: absolute;
+	left:0;
+	bottom: 10px;
+	text-align: center;
+}
+
+
+.first-pic , .second-pic, .third-pic, .fourth-pic, .fifth-pic, .sixth-pic{
+	position: relative;
+	display: inline;
+}
+
+#details, .homepage {
+	color: #bbc;
+}
+
+#button {
+	background-color: teal;
+	color: white;
+	width: 10%;
+}
+
+#name, #email {
+	width: 100%;
+}
+
+#msg {
+	width: 100%;
+	height: 100px;
+
+}
